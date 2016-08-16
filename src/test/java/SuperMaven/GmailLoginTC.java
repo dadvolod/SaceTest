@@ -16,7 +16,7 @@ public class GmailLoginTC {
 	public void Login() throws InterruptedException, MalformedURLException
 	{
 		
-		// DesiredCapabilities dc = new DesiredCapabilities().firefox();
+		DesiredCapabilities dc = new DesiredCapabilities();
 		
 		// dc.setCapability("version", "37");
 		// dc.setCapability("platform", "Windows 10");
