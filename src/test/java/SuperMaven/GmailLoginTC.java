@@ -23,8 +23,8 @@ public class GmailLoginTC {
 		WebDriver driver = new RemoteWebDriver(
 		new URL("http://dadvolod:075ff0da-658d-49b7-be26-c32d4fed94d1@ondemand.saucelabs.com:80/wd/hub"), dc);
 		
-		System.setProperty("webdriver.chrome.driver", "/Users/dmitriyadvolodkin/Documents/Google/Drivers/chromedriver");
-		WebDriver driver= new ChromeDriver();	
+		// System.setProperty("webdriver.chrome.driver", "/Users/dmitriyadvolodkin/Documents/Google/Drivers/chromedriver");
+		// WebDriver driver= new ChromeDriver();	
 		
 		// WebDriver driver= new FirefoxDriver();
 
