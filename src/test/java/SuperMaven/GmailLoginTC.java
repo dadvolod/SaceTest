@@ -16,17 +16,17 @@ public class GmailLoginTC {
 	public void Login() throws InterruptedException, MalformedURLException
 	{
 		
-		// DesiredCapabilities dc = new DesiredCapabilities().firefox();
+		DesiredCapabilities dc = new DesiredCapabilities().firefox();
 		
-		// dc.setCapability("version", "37");
-		// dc.setCapability("platform", "Windows 10");
-		// WebDriver driver = new RemoteWebDriver(
-		// new URL("http://dadvolod:075ff0da-658d-49b7-be26-c32d4fed94d1@ondemand.saucelabs.com:80/wd/hub"), dc);
+		dc.setCapability("version", "37");
+		dc.setCapability("platform", "Windows 10");
+		WebDriver driver = new RemoteWebDriver(
+		new URL("http://dadvolod:075ff0da-658d-49b7-be26-c32d4fed94d1@ondemand.saucelabs.com:80/wd/hub"), dc);
 		
-		// System.setProperty("webdriver.chrome.driver", "/Users/dmitriyadvolodkin/Documents/Google/Drivers/chromedriver");
-		// WebDriver driver= new ChromeDriver();	
+		System.setProperty("webdriver.chrome.driver", "/Users/dmitriyadvolodkin/Documents/Google/Drivers/chromedriver");
+		WebDriver driver= new ChromeDriver();	
 		
-		WebDriver driver= new FirefoxDriver();
+		// WebDriver driver= new FirefoxDriver();
 
 		driver.get("http://www.google.com");
 		System.out.println(driver.getTitle());
