@@ -31,6 +31,9 @@ public class GmailLoginTC {
 		driver.get("http://www.google.com");
 		System.out.println(driver.getTitle());
 		driver.quit();
+		//
+		//
+		//
 //		ExtentReports reports = new ExtentReports("/Users/dmitriyadvolodkin/Documents/Google/test-output/Automatio Test/NewTest.html", true);
 //		ExtentTest test = reports.startTest("Gmail Login", "User logs into gmail");
 //
